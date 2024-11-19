@@ -5,9 +5,11 @@ public class SumOfNumbers {
 
         System.out.println("enter the first number: ");
        int a =scanner.nextInt();
-        System.out.println("Enter the second number: ");
+         System.out.println("Enter the second number: ");
         int b =scanner.nextInt();
-        System.out.println("the sum of th two numbers is " + a+b);
+         System.out.println("enter the third number: ");
+         int c =scanner.nextInt();
+        System.out.println("the sum of the three numbers is " + a+b+c);
 
     }
 }
